@@ -1,6 +1,6 @@
+import CheckBox from "components/atoms/CheckBox";
+import Label from "components/atoms/Label";
 import React from "react";
-import CheckBox from "../../components/atoms/CheckBox";
-import Label from "../../components/atoms/Label";
 
 function CheckboxList() {
   return (

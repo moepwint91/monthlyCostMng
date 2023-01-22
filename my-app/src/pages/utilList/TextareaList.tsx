@@ -1,6 +1,6 @@
 import React from "react";
-import Label from "../../components/atoms/Label";
-import Textarea from "../../components/atoms/Textarea";
+import Label from "components/atoms/Label";
+import Textarea from "components/atoms/Textarea";
 
 function TextareaList() {
   return (

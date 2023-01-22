@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "../../components/atoms/Image";
+import Image from "components/atoms/Image";
 
 function ImageList() {
   return (

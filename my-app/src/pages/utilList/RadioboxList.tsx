@@ -1,6 +1,6 @@
 import React from "react";
-import Label from "../../components/atoms/Label";
-import Radio from "../../components/atoms/Radio";
+import Label from "components/atoms/Label";
+import Radio from "components/atoms/Radio";
 
 function RadioboxList() {
   return (

@@ -1,5 +1,5 @@
 import React from "react";
-import ButtonType from "../../../utils/enum/ButtonType";
+import ButtonType from "utils/enum/ButtonType";
 import Props from "./button.type";
 
 function Button(props: Props) {

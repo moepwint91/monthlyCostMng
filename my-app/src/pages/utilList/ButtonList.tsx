@@ -1,6 +1,6 @@
 import React from "react";
-import Button from "../../components/atoms/Button";
-import ButtonType from "../../utils/enum/ButtonType";
+import Button from "components/atoms/Button";
+import ButtonType from "utils/enum/ButtonType";
 
 function ButtonList() {
   return (

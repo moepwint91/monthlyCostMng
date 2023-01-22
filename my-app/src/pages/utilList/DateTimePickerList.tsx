@@ -1,5 +1,5 @@
 import React from "react";
-import DateTimePicker from "../../components/atoms/DateTimePicker";
+import DateTimePicker from "components/atoms/DateTimePicker";
 
 function DateTimePickerList() {
   return (

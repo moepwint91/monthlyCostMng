@@ -1,6 +1,6 @@
 import React from "react";
-import Input from "../../components/atoms/Input";
-import Label from "../../components/atoms/Label";
+import Input from "components/atoms/Input";
+import Label from "components/atoms/Label";
 
 function InputList() {
   return (

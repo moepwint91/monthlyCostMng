@@ -1,5 +1,5 @@
 import React from "react";
-import SelectBox from "../../components/atoms/SelectBox";
+import SelectBox from "components/atoms/SelectBox";
 
 function SelectboxList() {
   const handleChange = (event) => {
