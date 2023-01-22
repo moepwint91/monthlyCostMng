@@ -1,9 +1,8 @@
-import React from 'react'
+import React from "react";
+import UtilList from "./pages/utilList";
 
 function App() {
-  return (
-    <div>App</div>
-  )
+  return <UtilList />;
 }
 
-export default App
+export default App;
