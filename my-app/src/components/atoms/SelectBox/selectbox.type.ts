@@ -1,2 +1,2 @@
-interface Props extends React.HtmlHTMLAttributes<HTMLSelectElement> {}
+interface Props extends React.SelectHTMLAttributes<HTMLSelectElement> {}
 export default Props;

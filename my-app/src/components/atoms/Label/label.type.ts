@@ -1,3 +1,3 @@
-interface Props extends React.HtmlHTMLAttributes<HTMLLabelElement> {}
+interface Props extends React.LabelHTMLAttributes<HTMLLabelElement> {}
 
 export default Props;

@@ -1,10 +1,11 @@
 import React from "react";
-import Button from "../components/atoms/Button";
-import ButtonType from "../utils/enum/ButtonType";
+import Button from "../../components/atoms/Button";
+import ButtonType from "../../utils/enum/ButtonType";
 
-function UtilList() {
+function ButtonList() {
   return (
-    <>
+    <div>
+      {" "}
       <Button btnTxt="Primary" />
       <Button btnTxt="Secondary" className={ButtonType.Secondary} />
       <Button btnTxt="Success" className={ButtonType.Success} />
@@ -28,8 +29,8 @@ function UtilList() {
           BtnWithIcon4<i className="bi bi-alexa"></i>
         </div>
       </Button>
-    </>
+    </div>
   );
 }
 
-export default UtilList;
+export default ButtonList;

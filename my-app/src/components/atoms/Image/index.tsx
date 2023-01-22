@@ -1,9 +1,9 @@
 import React from "react";
-import Props from "./icon.type";
+import Props from "./image.type";
 
-function Icon(props: Props) {
+function Image(props: Props) {
   const { ...rest } = props;
   return <img {...rest}></img>;
 }
 
-export default Icon;
+export default Image;

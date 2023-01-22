@@ -1,2 +1,2 @@
-interface Props extends React.HtmlHTMLAttributes<HTMLInputElement> {}
+interface Props extends React.InputHTMLAttributes<HTMLInputElement> {}
 export default Props;

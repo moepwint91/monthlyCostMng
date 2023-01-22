@@ -1,6 +1,6 @@
 import React from "react";
 
-interface Props extends React.HtmlHTMLAttributes<HTMLButtonElement> {
+interface Props extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   btnTxt?: string | React.ReactNode;
 }
 
