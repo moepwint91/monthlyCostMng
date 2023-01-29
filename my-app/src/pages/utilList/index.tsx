@@ -1,3 +1,10 @@
+import Input from "components/atoms/Input";
+import Label from "components/atoms/Label";
+import Textarea from "components/atoms/Textarea";
+import FormGroup from "components/molecules/FormGroup";
+import SearchBar from "components/molecules/SearchBar";
+import Footer from "components/organisms/common/Footer";
+import NavBar from "components/organisms/common/NavBar";
 import React from "react";
 import ButtonList from "./ButtonList";
 import CheckboxList from "./CheckboxList";
@@ -12,7 +19,7 @@ import TextareaList from "./TextareaList";
 function UtilList() {
   return (
     <>
-      <ButtonList />
+      {/* <ButtonList />
       <CheckboxList />
       <LabelList />
       <RadioboxList />
@@ -20,7 +27,14 @@ function UtilList() {
       <SelectboxList />
       <InputList />
       <ImageList />
-      <DateTimePickerList />
+      <DateTimePickerList /> */}
+      <NavBar />
+      <FormGroup label={<Label>Enter Name</Label>} item={<Input />} />
+      <FormGroup
+        label={<Label children="Enter Comment" />}
+        item={<Textarea />}
+      />
+      <Footer />
     </>
   );
 }
